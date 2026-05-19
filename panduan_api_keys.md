@@ -158,7 +158,7 @@ Digunakan agar user/tim Anda bisa masuk atau mendaftar ke Nalderaone menggunakan
 Setelah Anda mengumpulkan API Key di atas, Anda dapat menerapkannya menggunakan salah satu dari dua cara berikut:
 
 ### Metode A: Memasukkan ke file `.env` (Direkomendasikan untuk Server Mandiri)
-1. Buka file `.env` di direktori utama proyek (`d:\project\brightbean-studio\.env`).
+1. Buka file `.env` di direktori utama proyek (`d:\project\nalderaone-studio\.env`).
 2. Tempelkan kunci yang telah Anda dapatkan pada bagian berikut (kosongkan jika tidak digunakan):
 
 ```env

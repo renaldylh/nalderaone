@@ -105,7 +105,7 @@ class MastodonProvider(SocialProvider):
                 "client_name": "Nalderaone",
                 "redirect_uris": redirect_uri,
                 "scopes": " ".join(self.required_scopes),
-                "website": "https://brightbean.xyz",
+                "website": "https://nalderaone.xyz",
             },
         )
         data = resp.json()
