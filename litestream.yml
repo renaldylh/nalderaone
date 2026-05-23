@@ -1,0 +1,8 @@
+dbs:
+  - path: /app/db.sqlite3
+    replicas:
+      - type: s3
+        bucket: ${LITESTREAM_BUCKET}
+        path: db
+        endpoint: ${LITESTREAM_ENDPOINT}
+        region: auto
