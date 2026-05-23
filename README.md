@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/nalderaonexyz/nalderaone-studio/actions/workflows/ci.yml"><img src="https://github.com/nalderaonexyz/nalderaone-studio/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg" alt="License: AGPL-3.0"></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.12%2B-blue.svg" alt="Python 3.12+"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.11%2B-blue.svg" alt="Python 3.11+"></a>
   <a href="https://www.djangoproject.com/"><img src="https://img.shields.io/badge/Django-5.x-green.svg" alt="Django 5.x"></a>
 </p>
 
@@ -127,8 +127,8 @@ Run everything natively - no Docker, no PostgreSQL install. Uses SQLite for the 
 
 ### Prerequisites
 
-- Python 3.12+
-- Node.js 20+
+- Python 3.11+
+- Node.js 16+ (or build CSS locally on Windows 10/11)
 
 ### Setup
 

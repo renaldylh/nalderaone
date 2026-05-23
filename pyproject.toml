@@ -1,5 +1,5 @@
 [tool.ruff]
-target-version = "py312"
+target-version = "py311"
 line-length = 120
 
 [tool.ruff.lint]
@@ -12,7 +12,7 @@ ignore = [
 known-first-party = ["apps", "config"]
 
 [tool.mypy]
-python_version = "3.12"
+python_version = "3.11"
 plugins = ["mypy_django_plugin.main"]
 ignore_missing_imports = true
 
